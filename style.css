@@ -1,0 +1,31 @@
+.jumbotron {
+	background-image: url(fruitstand.jpg);
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+.jumbotron h1 {
+	-webkit-text-stroke: 2px black;
+}
+
+.jumbotron p {
+	color: black;
+	font-size: 30px;
+	font-weight: 700;
+	-webkit-text-stroke: 1px white
+}
+
+img {
+	float:left;
+}
+
+h4 {
+	text-align: center;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	padding: 10px 0 10px 0;
+}
+
+h5 {
+	font-weight: 700;
+}

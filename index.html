@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prime Group jQuery Challenge</title>
+        <meta name="description" content="Webpage">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link href="style.css" rel="stylesheet">
+        <script src="jquery.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+              <h1>Storefront</h1>
+              <p>We've got the best fruit.</p>
+            </div>
+            <div class="row"></div>
+            <div class="col-md-4">
+                <div class="thumbnail well">
+                    <img src="apple.png" class='img-responsive' alt="Apple">
+                    <div class="caption">
+                        <h3>Apple</h3>
+                        <p>Current Price: $<span id="applePrice"></span></p>
+                        <button type="button" class="btn btn-primary center-block buy green">Buy One!</button>
+                    </div>
+                </div>
+                <div class="thumbnail well">
+                    <img src="bananas.png" class='img-responsive' alt="Banana">
+                    <div class="caption">
+                        <h3>Banana</h3>
+                        <p>Current Price: $<span id="bananaPrice"></span></p>
+                        <button type="button" class="btn btn-primary center-block buy green">Buy One!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail well">
+                    <img src="pear.png" class='img-responsive' alt="Pear">
+                    <div class="caption">
+                        <h3>Pear</h3>
+                        <p>Current Price: $<span id="pearPrice"></span></p>
+                        <button type="button" class="btn btn-primary center-block buy green">Buy One!</button>
+                    </div>
+                </div>
+                <div class="thumbnail well">
+                    <img src="orange.png" class='img-responsive' alt="Orange">
+                    <div class="caption">
+                        <h3>Orange</h3>
+                        <p>Current Price: $<span id="orangePrice"></span></p>
+                        <button type="button" class="btn btn-primary center-block buy green">Buy One!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail well">
+                    <img src="">
+                    <div class="caption">
+                        <h3>Fruit Commodity Trade Pane</h3>
+                        <h4>My Inventory</h4>
+                        <div>
+                            <h5>Cash on Hand: $<span id="currentCash">0</span></h5>
+                        </div>
+                        <div class='myApples'>
+                            <button class="btn btn-danger btn-lg sellApple sell" type="button" value="Apple">Apples <span id="appleBadge" class="badge">0</span></button>
+                            <p>Avg Buy Price: $<span id="avgApplePrice">0</span></p>
+                        </div>
+                        <div class='myBananas'>
+                            <button class="btn btn-primary btn-lg sellBanana sell" type="button" value="Banana">Bananas <span id="bananaBadge" class="badge">0</span></button>
+                            <p>Avg Buy Price: $<span id="avgBananaPrice">0</span></p>
+                        </div>
+                        <div class='myPears'>
+                            <button class="btn btn-success btn-lg sellPear sell" type="button" value="Pear">Pears <span id="pearBadge" class="badge">0</span></button>
+                            <p>Avg Buy Price: $<span id="avgPearPrice">0</span></p>
+                        </div>
+                        <div class='myOranges'>
+                            <button class="btn btn-warning btn-lg sellOrange sell" type="button" value ="Orange">Oranges <span id="orangeBadge" class="badge">0</span></button>
+                            <p>Avg Buy Price: $<span id="avgOrangePrice">0</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
